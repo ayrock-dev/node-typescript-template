@@ -1,0 +1,21 @@
+{
+  "name": "node-typescript-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc && node --inspect dist/index.js",
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@total-typescript/tsconfig": "^1.0.4",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
